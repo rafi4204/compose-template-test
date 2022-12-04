@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.composetemplate">
+    package="com.composetemplatetest">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.composetemplate.App"
+        android:name="com.composetemplatetest.App"
         android:allowBackup="true"
         android:fullBackupOnly="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Androidtemplate.Starting">
         <activity
-            android:name="com.composetemplate.features.main.MainActivity"
+            android:name="com.composetemplatetest.features.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
